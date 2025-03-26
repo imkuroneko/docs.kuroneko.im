@@ -46,8 +46,8 @@ export default defineConfig({
                                     text: "🎲 Misc",
                                     collapsed: true,
                                     items: [
-                                        { text: "🕐 Zona Horaria", link: "/web-servers/subcategoria-1/seccion-1" },
-                                        { text: "👥 Crear Usuarios", link: "/web-servers/subcategoria-1/seccion-2" },
+                                        { text: "🕐 Zona Horaria", link: "/web-servers/ubuntu/misc/zona-horaria" },
+                                        { text: "👥 Crear Usuarios", link: "/web-servers/ubuntu/misc/crear-usuarios" },
                                     ],
                                 },
                                 {
@@ -58,26 +58,26 @@ export default defineConfig({
                                             text: "🥫 Base de Datos",
                                             collapsed: true,
                                             items: [
-                                                { text: "MySQL", link: "/web-servers/subcategoria-1/seccion-1" },
+                                                { text: "MySQL", link: "/web-servers/ubuntu/base-de-datos/mysql" },
                                             ],
                                         },
                                         {
                                             text: "🔐 VPN",
                                             collapsed: true,
                                             items: [
-                                                { text: "Tailwind", link: "/web-servers/subcategoria-1/seccion-1" },
-                                                { text: "OpenVPN", link: "/web-servers/subcategoria-1/seccion-2" },
+                                                { text: "Tailwind", link: "/web-servers/ubuntu/vpn/tailwind" },
+                                                { text: "OpenVPN", link: "/web-servers/ubuntu/vpn/openvpn" },
                                             ],
                                         },
                                         {
                                             text: "♻️ Proxy",
                                             collapsed: true,
                                             items: [
-                                                { text: "NGINX", link: "/web-servers/subcategoria-1/seccion-1" },
-                                                { text: "Caddy Server", link: "/web-servers/subcategoria-1/seccion-2" },
+                                                { text: "NGINX", link: "/web-servers/ubuntu/proxy/nginx" },
+                                                { text: "Caddy Server", link: "/web-servers/ubuntu/proxy/caddyserver" },
                                             ],
                                         },
-                                        { text: "🔐 CertBot", link: "/web-servers/subcategoria-2/seccion-2" },
+                                        { text: "🔐 CertBot", link: "/web-servers/ubuntu/certbot" },
                                     ],
                                 },
                             ],
@@ -94,7 +94,7 @@ export default defineConfig({
                                             text: "🥫 Base de Datos",
                                             collapsed: true,
                                             items: [
-                                                { text: "MySQL", link: "/web-servers/subcategoria-1/seccion-1" },
+                                                { text: "MySQL", link: "/web-servers/servicios/mysql" },
                                             ],
                                         },
                                     ],
@@ -105,8 +105,8 @@ export default defineConfig({
                             text: "🟢 NodeJS",
                             collapsed: true,
                             items: [
-                                { text: "💾 Instalación", link: "/web-servers/subcategoria-2/seccion-1" },
-                                { text: "👮🏻‍♀️ pm2", link: "/web-servers/subcategoria-2/seccion-2" },
+                                { text: "💾 Instalación", link: "/web-servers/nodejs/instalacion" },
+                                { text: "👮🏻‍♀️ pm2", link: "/web-servers/nodejs/pm2" },
                             ],
                         },
                         {
