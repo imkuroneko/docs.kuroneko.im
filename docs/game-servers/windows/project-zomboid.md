@@ -35,7 +35,7 @@ En la carpeta del juego encontraremos 3 archivos ejecutables, según como prefie
 - `StartServer64.bat` : Para iniciar el servidor (con Steam) en la versión 64 bits.
 - `StartServer64_nosteam.bat` : Para iniciar el servidor (sin Steam) en la versión 64 bits.
 
-::: Info Recursos:
+::: info Info Recursos:
 Según prefieras, puedes crear una copia de uno de estos archivos para así poder realizar las modificaciones que prefieras en los parámetros, cómo pueden ser:
 - `-Xms` (config de límite de memoria)
 - `-Xmx` (config de límite de memoria)
