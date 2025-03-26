@@ -1,0 +1,24 @@
+:root {
+  --vp-c-purple: #8b5cf6;
+  --vp-c-purple-light: #a78bfa;
+  --vp-c-purple-lighter: #c4b5fd;
+  --vp-c-purple-dark: #7c3aed;
+  --vp-c-purple-darker: #6d28d9;
+
+  --vp-c-brand-1: var(--vp-c-purple);
+  --vp-c-brand-2: var(--vp-c-purple-light);
+  --vp-c-brand-3: var(--vp-c-purple-lighter);
+  
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, var(--vp-c-purple) 30%, var(--vp-c-purple-light));
+  
+  --vp-button-brand-bg: var(--vp-c-purple);
+  --vp-button-brand-hover-bg: var(--vp-c-purple-dark);
+  --vp-button-brand-active-bg: var(--vp-c-purple-darker);
+}
+
+.dark {
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #242424;
+  --vp-c-text: #ffffff;
+}

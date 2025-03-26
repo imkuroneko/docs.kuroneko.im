@@ -1,0 +1,23 @@
+{
+    "name": "docs.kuroneko.im",
+    "version": "1.0.0",
+    "description": "Plantilla base documentación",
+    "type": "module",
+    "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "keywords": [
+        "vitepress",
+        "documentacion",
+        "vue"
+    ],
+    "author": "KuroNeko",
+    "license": "MIT",
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.40",
+        "vue": "^3.3.4"
+    },
+    "private": true
+}
