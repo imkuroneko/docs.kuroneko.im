@@ -174,7 +174,8 @@ export default defineConfig({
             theme: {
                 light: 'github-light',
                 dark: 'github-dark'
-            }
+            },
+            lazyLoading: true
         }
     },
 
