@@ -58,7 +58,7 @@ export default defineConfig({
                                             text: "🥫 Base de Datos",
                                             collapsed: true,
                                             items: [
-                                                { text: "MySQL", link: "/web-servers/ubuntu/base-de-datos/mysql" },
+                                                { text: "MariaDB", link: "/web-servers/ubuntu/base-de-datos/mariadb" },
                                             ],
                                         },
                                         {
